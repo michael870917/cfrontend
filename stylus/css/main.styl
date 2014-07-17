@@ -1,0 +1,29 @@
+@import 'nib/vendor'
+@import 'nib/gradients'
+
+vendor-prefixes = o ms moz webkit oficial
+
+body
+	background blue
+
+.botonera
+	background red
+	border 1px solid orange
+	border-radius 5px
+	color white
+	text-transform uppercase
+	transition 1s background
+	&:hover
+		background green
+
+	&.yellow
+		background yellow
+		&:hover
+			background orange
+
+.padre	
+	background linear-gradient(top, white, black)
+	padding 200px
+	.hijo
+		font-size 100px		
+
