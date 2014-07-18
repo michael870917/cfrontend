@@ -303,11 +303,15 @@
 	</footer>
 	<script>
 	
-	$(document).ready(function(){		
+	$(document).ready(function(){
+		
+		//$(window).on("load",darBienvenida).on('load', hacerAlgo);
+		// Agregando evento		
 		$('.publicar').on('click', darBienvenida).on('click', function() {
 			console.log("hola amor");			
-		});
-		$(window).on("load",darBienvenida).on('load', hacerAlgo);
+		});		
+		
+		// Quitando evento		
 		$('.publicar').off('click', darBienvenida);
 	});
 
