@@ -1,4 +1,15 @@
+azul = #22BCE0
 gris_oscuro = #444
+gris_claro = lighten(gris_oscuro,40%)
+
+
+
+footer
+	background gris_oscuro
+	color white
+	padding 1em
+
+
 header
 	background gris_oscuro
 	color white
@@ -23,3 +34,42 @@ header
 			border-radius 50%
 			height 50px
 			width 50px
+
+nav
+	background azul
+	.menu
+		
+		li
+			a
+				color white
+				font-size 16px
+				font-weight normal
+
+section
+	padding 1.2em
+
+	article
+		border 1px solid gris_claro
+		border-bottom-left-radius	0.8em		
+		border-bottom-right-radius	0.8em
+		margin-bottom 1.2em
+		overflow hidden				
+
+		figure
+			background gris_claro
+			height 160px
+			width 120px			
+
+		h2
+			font-size 18px
+			color gris_oscuro
+
+		.acciones
+			border-top 3px solid gris_claro
+			min-height 3em	
+			padding 0.8px
+
+		.fecha
+			position relative
+			right 20px
+
