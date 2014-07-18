@@ -302,7 +302,24 @@
 		 </h3>	
 	</footer>
 	<script>
+	
+	$(document).ready(function(){		
+		$('.publicar').on('click', darBienvenida).on('click', function() {
+			console.log("hola amor");			
+		});
+		$(window).on("load",darBienvenida).on('load', hacerAlgo);
+		$('.publicar').off('click', darBienvenida);
+	});
 
+	function darBienvenida(){
+		alert("Hola");
+	}
+
+	function hacerAlgo(){
+		console.log("esperandote");
+	}
+
+	
 	</script>
 </body>
 </html>
