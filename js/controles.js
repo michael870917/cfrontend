@@ -53,13 +53,52 @@ $(document).ready(function(){
 		$(".posts").prepend($(template).fadeIn(function(){
 			$(this).css('display','inline-block')
 		}));				
+
 		//$('input[type=text]').val('');
 		$('#agreeArt').each (function(){
   			this.reset();
 		});
+
 		$('#agreeArt').slideUp();
-
-
-
 	}
+
+	function crearSizer(pixels){
+		return function(){
+			$('body').css('font-size', pixels + 'px');
+		}
+	}
+
+	$('.sizer').each(function(i, link){
+		var pixels = $(link).prop('hash').substring(1);
+		$(link).css('font-size', pixels + 'px').on('click' ,crearSizer(pixels));
+	});
+
+
+	function crearContador(valorInicial){
+		var contador = valorInicial || 0;
+		return{
+			up: function(){
+				return ++contador;
+			},
+
+			down: function(){
+				return --contador;
+			}
+		};
+	}
+
+	$('.total').each(function(i , elem){
+		var contTotal = crearContador(elem.innerHTML);
+		$(elem)
+			.siblings('.up')
+				.on('click', function(evt){
+					evt.preventDefault();					
+					$(elem).html(contTotal.up());
+				})
+			.siblings('.down')
+				.on('click', function(evt){
+					evt.preventDefault();					
+					$(elem).html(contTotal.down());	
+				});	
+	});	
 });

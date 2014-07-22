@@ -26,6 +26,11 @@
 					Publicar
 				</a>
 			</div>
+			<div>
+				<a href="#14" class="sizer">A</a>
+				<a href="#16" class="sizer">A</a>
+				<a href="#18" class="sizer">A</a>
+			</div>
 		</div>
 		<div class="usuario">
 			<figure class="avatar">
@@ -81,7 +86,7 @@
 			<div class="acciones">
 				<div class="votos">
 					<a href="#" class="up"></a>
-					<span class="total">155</span>
+					<span class="total">546</span>
 					<a href="#" class="down"></a>
 				</div>
 				<div class="datos">
@@ -114,7 +119,7 @@
 			<div class="acciones">
 				<div class="votos">
 					<a href="#" class="up"></a>
-					<span class="total">155</span>
+					<span class="total">343</span>
 					<a href="#" class="down"></a>
 				</div>
 				<div class="datos">
@@ -147,7 +152,7 @@
 			<div class="acciones">
 				<div class="votos">
 					<a href="#" class="up"></a>
-					<span class="total">155</span>
+					<span class="total">123</span>
 					<a href="#" class="down"></a>
 				</div>
 				<div class="datos">
@@ -180,7 +185,7 @@
 			<div class="acciones">
 				<div class="votos">
 					<a href="#" class="up"></a>
-					<span class="total">155</span>
+					<span class="total">987</span>
 					<a href="#" class="down"></a>
 				</div>
 				<div class="datos">
@@ -213,7 +218,7 @@
 			<div class="acciones">
 				<div class="votos">
 					<a href="#" class="up"></a>
-					<span class="total">155</span>
+					<span class="total">657</span>
 					<a href="#" class="down"></a>
 				</div>
 				<div class="datos">
@@ -246,7 +251,7 @@
 			<div class="acciones">
 				<div class="votos">
 					<a href="#" class="up"></a>
-					<span class="total">155</span>
+					<span class="total">342</span>
 					<a href="#" class="down"></a>
 				</div>
 				<div class="datos">
